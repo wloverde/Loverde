@@ -5,7 +5,8 @@
   "type": "module",
   "homepage": "https://wloverde.github.io/Loverde/",
   "scripts": {
-    "dev": "vite preview --port 3001",
+    "init": "npm i && npm run build",
+    "dev": "vite --port 3001",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
