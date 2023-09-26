@@ -1,8 +1,61 @@
 #root {
+  /* texts */
+  --color1: #b0b0b0;
+  --color2: #939191;
+  /* backgrounds */
+  --color3: #3f3f3f; 
+  --color4: #2e2e2e;
+  /* borders */
+  --color5: #000000;
+  /* window params */
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: var(--color2);
+}
+/* standard link */
+a:link, a:visited {
+  color: var(--color2);
+}
+
+/* mouse over & select link */
+a:hover, a:active {
+  color: var(--color1);
+}
+
+
+header {
+  /* formating centering nested elements */
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  /* visuals */
+  border-bottom: 15px double var(--color3);
+  background-color: var(--color4);
+  /* background-image: linear-gradient(
+      var(--color4),
+      var(--color3));  */
+}
+
+nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; 
+}
+footer {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; 
 }
 
 .logo {
