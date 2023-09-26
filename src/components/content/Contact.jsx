@@ -1,10 +1,10 @@
 import React from "react";
 
-const AboutMe = () => {
-    
+const Contact = () => {
+
     return (<div className="card-body">
-        About Me
+        Contact
     </div>)
 };
 
-export default AboutMe;
+export default Contact;

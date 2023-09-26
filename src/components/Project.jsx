@@ -1,9 +1,9 @@
 import { useState } from "react";
 import React from "react";
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Resume from "./Resume";
+import AboutMe from "./content/AboutMe";
+import Portfolio from "./content/Portfolio";
+import Contact from "./content/Contact";
+import Resume from "./content/Resume";
 
 const Project = ({clickedLink}) => {
     let content = null;
@@ -28,6 +28,7 @@ const Project = ({clickedLink}) => {
   
     return (
     <section className="card">
+        hi
         {content}
     </section>
   );

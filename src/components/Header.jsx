@@ -16,10 +16,18 @@ const Header = () => {
       {/* a navbar to swap content from project.jsx*/}
         <nav >
             <ul>
-                <li onClick={() => handleClick("aboutMe")}>About Me</li>
-                <li onClick={() => handleClick("portfolio")}>Portfolio</li>
-                <li onClick={() => handleClick("contact")}>Contact</li>
-                <li onClick={() => handleClick("resume")}>Resume</li>
+                <li 
+                className={clickedLink === 'aboutMe' ? 'active' : ''}
+                onClick={() => handleClick("aboutMe")}>About Me</li>
+                <li
+                className={clickedLink === 'portfolio' ? 'active' : ''}
+                onClick={() => handleClick("portfolio")}>Portfolio</li>
+                <li 
+                className={clickedLink === 'contact' ? 'active' : ''}
+                onClick={() => handleClick("contact")}>Contact</li>
+                <li 
+                className={clickedLink === 'resume' ? 'active' : ''}
+                onClick={() => handleClick("resume")}>Resume</li>
             </ul>
         </nav>
     </header>
