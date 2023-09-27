@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import Modecat from "../assets/images/modecat.png";
 
 const Header = () => {
