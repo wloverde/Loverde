@@ -20,7 +20,7 @@ const Portfolio = () => {
       <h2>Work</h2>
       <div id="work" className="portfolio-grid">
         {portfolioData.map((item, index) => (
-          <a href={item.link} key={index} className="portfolio-item">
+          <a href={item.link} key={index}>
             <div className="card">
               <img src={item.image} alt={item.title} width={400} height={200} />
               <h4>{item.usage}</h4>

@@ -1,0 +1,9 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap size as needed */
+  }
+  
+  .contact-item {
+    text-align: center;
+  }
