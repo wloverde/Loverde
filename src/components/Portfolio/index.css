@@ -1,0 +1,17 @@
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adjust the gap size as needed */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* Display as a single column on smaller screens */
+  }
+}
