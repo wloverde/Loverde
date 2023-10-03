@@ -3,11 +3,8 @@ import Modecat from "../../assets/images/modecat.png";
 const Header = (props) => {
   const { pages = [], setClickedLink, clickedLink } = props;
   const handleClick = (link) => {
-    console.log(link, "from header.jsx");
     setClickedLink(link);
-    console.log(clickedLink.name);
   };
-  console.log(clickedLink, "clickedLink from header.jsx");
   return (
     <header>
       {/* set Header to home */}
@@ -40,17 +37,3 @@ const Header = (props) => {
 };
 export default Header;
 
-{
-  /* <li 
-                className={clickedLink === 'aboutMe' ? 'active' : ''}
-                onClick={() => handleClick("aboutMe")}>About Me</li>
-                <li
-                className={clickedLink === 'portfolio' ? 'active' : ''}
-                onClick={() => handleClick("portfolio")}>Portfolio</li>
-                <li 
-                className={clickedLink === 'contact' ? 'active' : ''}
-                onClick={() => handleClick("contact")}>Contact</li>
-                <li 
-                className={clickedLink === 'resume' ? 'active' : ''}
-                onClick={() => handleClick("resume")}>Resume</li> */
-}
