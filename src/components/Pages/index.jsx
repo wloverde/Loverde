@@ -21,11 +21,7 @@ function Page(props) {
         return <AboutMe />;
     }
   };
-  return (
-    <section>
-      {render()}
-    </section>
-  );
+  return <section>{render()}</section>;
 }
 
 export default Page;

@@ -27,7 +27,7 @@ function App() {
         pages={pages}
       />
       <main>
-        <Page clickedLink={clickedLink} > </Page>
+        <Page clickedLink={clickedLink}> </Page>
       </main>
       <Footer />
     </>
