@@ -23,7 +23,6 @@ function Page(props) {
   };
   return (
     <section>
-      <h2>Andrew Loverde</h2>
       {render()}
     </section>
   );
