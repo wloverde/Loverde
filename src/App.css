@@ -64,6 +64,8 @@ footer {
   margin: 0 0 3em 0;
   padding: 0;
   list-style: none;
+  border-top: 15px double var(--color3);
+  background-color: var(--color4);
 }
 
 .logo {
